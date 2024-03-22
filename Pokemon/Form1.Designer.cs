@@ -62,27 +62,34 @@
             // Jugador
             // 
             Jugador.BackColor = Color.Transparent;
+            Jugador.Image = Properties.Resources.New_pokemon_removebg_preview__1_;
             Jugador.Location = new Point(643, 12);
             Jugador.Name = "Jugador";
             Jugador.Size = new Size(150, 150);
+            Jugador.SizeMode = PictureBoxSizeMode.StretchImage;
             Jugador.TabIndex = 1;
             Jugador.TabStop = false;
             // 
             // Rival
             // 
             Rival.BackColor = Color.Transparent;
+            Rival.Image = Properties.Resources.Butterfree_removebg_preview__1_;
             Rival.Location = new Point(882, 12);
             Rival.Name = "Rival";
             Rival.Size = new Size(150, 150);
+            Rival.SizeMode = PictureBoxSizeMode.StretchImage;
             Rival.TabIndex = 2;
             Rival.TabStop = false;
             // 
             // ReiniciarPartida
             // 
             ReiniciarPartida.BackColor = Color.Transparent;
-            ReiniciarPartida.Location = new Point(36, 593);
+            ReiniciarPartida.Cursor = Cursors.Hand;
+            ReiniciarPartida.Image = Properties.Resources.Botón_mejorado_removebg_preview__1_;
+            ReiniciarPartida.Location = new Point(200, 593);
             ReiniciarPartida.Name = "ReiniciarPartida";
-            ReiniciarPartida.Size = new Size(500, 100);
+            ReiniciarPartida.Size = new Size(217, 90);
+            ReiniciarPartida.SizeMode = PictureBoxSizeMode.StretchImage;
             ReiniciarPartida.TabIndex = 3;
             ReiniciarPartida.TabStop = false;
             // 
@@ -101,9 +108,11 @@
             // ResultadoFinal
             // 
             ResultadoFinal.BackColor = Color.Transparent;
+            ResultadoFinal.Image = Properties.Resources.Pokebola_pokeball_png_0;
             ResultadoFinal.Location = new Point(1140, 16);
             ResultadoFinal.Name = "ResultadoFinal";
             ResultadoFinal.Size = new Size(300, 300);
+            ResultadoFinal.SizeMode = PictureBoxSizeMode.StretchImage;
             ResultadoFinal.TabIndex = 5;
             ResultadoFinal.TabStop = false;
             // 
@@ -160,7 +169,7 @@
             Controls.Add(Jugador);
             Controls.Add(Tablero);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Pokemon Tres En Raya";
             ((System.ComponentModel.ISupportInitialize)Jugador).EndInit();
             ((System.ComponentModel.ISupportInitialize)Rival).EndInit();
             ((System.ComponentModel.ISupportInitialize)ReiniciarPartida).EndInit();

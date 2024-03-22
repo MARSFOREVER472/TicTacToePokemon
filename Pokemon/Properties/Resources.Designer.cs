@@ -63,6 +63,16 @@ namespace Pokemon.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Botón_mejorado_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Botón_mejorado-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bulbasaur {
             get {
                 object obj = ResourceManager.GetObject("Bulbasaur", resourceCulture);
@@ -76,6 +86,26 @@ namespace Pokemon.Properties {
         internal static System.Drawing.Bitmap Butterfree {
             get {
                 object obj = ResourceManager.GetObject("Butterfree", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Butterfree_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Butterfree-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Butterfree_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Butterfree-removebg-preview (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +133,39 @@ namespace Pokemon.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap New_pokemon_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("New_pokemon-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pokebola_pokeball_png_0 {
+            get {
+                object obj = ResourceManager.GetObject("Pokebola-pokeball-png-0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pokemon_chromebook_wallpaper {
             get {
                 object obj = ResourceManager.GetObject("pokemon-chromebook-wallpaper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap st_small_507x507_pad_600x600_f8f8f8_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("st_small_507x507-pad_600x600_f8f8f8-removebg-preview (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
