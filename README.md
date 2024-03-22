@@ -10,5 +10,8 @@ Para este proyecto, presentaremos a estos 3 personajes que son los participantes
  - Butterfree.
  - Froakie.
 
+   ![image](https://github.com/MARSFOREVER472/TicTacToePokemon/assets/69094327/5330fc53-c8a0-4ab9-bb0d-d64c82bdf8ea)
+
+
    
 
