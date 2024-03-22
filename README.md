@@ -1,3 +1,3 @@
 # TicTacToePokemon
 
-Para este proyecto, utilizaremos cinco componentes principales:
+Para este proyecto, presentaremos a estos 3 personajes que son los participantes del juego:
