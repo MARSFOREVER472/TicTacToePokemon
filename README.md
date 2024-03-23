@@ -4,7 +4,8 @@
 
  - Froakie.
 
-   ![image](https://github.com/MARSFOREVER472/TicTacToePokemon/assets/69094327/76a35bb0-6964-49c9-b160-f6c26d8752fe)
+   ![image](https://github.com/MARSFOREVER472/TicTacToePokemon/assets/69094327/214b4d71-243d-4dc0-90bf-64944a1b8f9b)
+
 
  - Butterfree.
 
