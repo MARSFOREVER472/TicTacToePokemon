@@ -8,7 +8,8 @@
 
  - Butterfree.
 
-   ![image](https://github.com/MARSFOREVER472/TicTacToePokemon/assets/69094327/458f2bad-83cc-45c3-b996-163a92bcdf81)
+   ![image](https://github.com/MARSFOREVER472/TicTacToePokemon/assets/69094327/5a2d7340-5c2c-4111-a86b-7ccf8f5eaf93)
+
 
 
 
