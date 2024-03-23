@@ -7,7 +7,7 @@
    ![image](https://github.com/MARSFOREVER472/TicTacToePokemon/assets/69094327/214b4d71-243d-4dc0-90bf-64944a1b8f9b)
 
 
- - _Butterfree._
+ - **_Butterfree._**
 
    ![image](https://github.com/MARSFOREVER472/TicTacToePokemon/assets/69094327/5a2d7340-5c2c-4111-a86b-7ccf8f5eaf93)
 
