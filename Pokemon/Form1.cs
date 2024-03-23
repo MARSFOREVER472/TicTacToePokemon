@@ -51,6 +51,7 @@ namespace Pokemon
                     CardGame.Image = Properties.Resources.Pokebola_pokeball_png_0; // LAS FICHAS SE OCULTARÁN AL INICIO DEL JUEGO CON UNA IMAGEN DE LA POKEBOLA.
                     CardGame.Name = string.Format("{0}", i + "_" + j); // EL NOMBRE SE MOSTRARÁ DURANTE LA EJECUCIÓN DEL PROGRAMA AL JUGAR.
                     CardGame.Dock = DockStyle.Fill; // NO SE MOSTRARÁN LAS ORILLAS SIN RELLENAR, PARA ESO SE DECLARA ESTA VARIABLE.
+                    CardGame.Click += Play; // VAMOS A JUGAR CLIQUEANDO UNAS FICHAS DEL TABLERO.
                     CardGame.Cursor = Cursors.Hand; // EL CURSOR AL CLIQUEAR LAS FICHAS DEL TABLERO SERÁ REEMPLAZADO POR UN DEDO AL TOCAR EN AQUELLO LUGAR.
                     CardGame.SizeMode = PictureBoxSizeMode.StretchImage; // EL TAMAÑO PARA LAS FICHAS SERÁ AUTOMÁTICO.
 
@@ -60,6 +61,19 @@ namespace Pokemon
                     TicTacToe[i, j] = 0; // COMIENZA TODO EL TABLERO DESDE EL INICIO EN FILAS Y COLUMNAS.
                 }
             }
+        }
+
+        // PARA PODER INTERACTUAR CON EL JUGADOR, VAMOS A CREAR UN MÉTODO PARA QUE ÉL MISMO PUEDA JUGAR CON ELLA...
+
+        private void Play(object sender, EventArgs e)
+        {
+            var CardUserSelected = (PictureBox)sender; // MEDIANTE ESTE COMPONENTE, SE ASOCIARÁ A LA FICHA EN LA QUE EL JUGADOR LO SELECCIONÓ DEL TABLERO.
+            CardUserSelected.Image = (Bitmap)Properties.Resources.ResourceManager.GetObject("f_" + turn); // CADA IMAGEN POR DEFECTO DEL TABLERO SE MOSTRARÁ DURANTE SU EJECUCIÓN.
+            string[] Position = CardUserSelected.Name.Split("_".ToCharArray()); // MEDIANTE ARREGLOS, SE DEFINE UNA POSICIÓN EN LA CUAL EL JUGADOR LO CLIQUEA POR DICHO TABLERO EN DONDE ÉL MISMO SE ENCUENTRA.
+            int Row = Convert.ToInt32(Position[0]); // PARA LAS FILAS DEL TABLERO MATRICIAL.
+            int Column = Convert.ToInt32(Position[1]); // PARA LAS COLUMNAS DEL TABLERO MATRICIAL.
+            TicTacToe[Row, Column] = turn; // ENTRE EL JUGADOR Y SU RIVAL SE TURNAN ENTRE SÍ.
+            turn = (turn == 1) ? 2 : 1; // MEDIANTE ESTA LÍNEA SE REALIZA UN CÁLCULO NO ALGEBRAICO PARA QUE AMBOS JUGADORES (JUGADOR/RIVAL) SE TURNEN ENTRE SÍ.
         }
     }
 }
