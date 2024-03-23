@@ -2,7 +2,7 @@
 
 **_Para este proyecto, presentaremos a 2 personajes que éstos serían los participantes del juego:_**
 
- - Bulbasaur.
+ - Froakie.
 
    ![image](https://github.com/MARSFOREVER472/TicTacToePokemon/assets/69094327/76a35bb0-6964-49c9-b160-f6c26d8752fe)
 
