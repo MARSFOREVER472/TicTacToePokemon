@@ -2,7 +2,7 @@
 
 **_Para este proyecto, presentaremos a 2 personajes que éstos serían los participantes del juego:_**
 
- - _Froakie._
+ - **_Froakie._**
 
    ![image](https://github.com/MARSFOREVER472/TicTacToePokemon/assets/69094327/214b4d71-243d-4dc0-90bf-64944a1b8f9b)
 
