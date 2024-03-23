@@ -1,6 +1,6 @@
 # TicTacToePokemon
 
-Para este proyecto, presentaremos a estos 3 personajes que son los participantes del juego:
+Para este proyecto, presentaremos a estos 3 componentes que son los participantes del juego:
 
  - Bulbasaur.
 
