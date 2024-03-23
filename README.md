@@ -1,6 +1,6 @@
 # TicTacToePokemon
 
-**_Para este proyecto, presentaremos a estos 2 personajes que son los participantes del juego:_**
+**_Para este proyecto, presentaremos a 2 personajes que éstos son los participantes del juego:_**
 
  - Bulbasaur.
 
